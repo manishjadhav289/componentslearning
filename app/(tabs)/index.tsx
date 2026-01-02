@@ -37,6 +37,13 @@ export default function HomeScreen() {
         <Text style={styles.cardText}>Pressable Component Events</Text>
       </Pressable>
 
+      <Pressable
+        style={styles.card}
+        onPress={() => router.push('/touchableopacity')}
+      >
+        <Text style={styles.cardText}>TouchableOpacity Events</Text>
+      </Pressable>
+
     </View>
   );
 }
