@@ -30,6 +30,13 @@ export default function HomeScreen() {
         <Text style={styles.cardText}>Button Component Event</Text>
       </Pressable>
 
+      <Pressable
+        style={styles.card}
+        onPress={() => router.push('/pressable')}
+      >
+        <Text style={styles.cardText}>Pressable Component Events</Text>
+      </Pressable>
+
     </View>
   );
 }
