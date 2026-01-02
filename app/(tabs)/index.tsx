@@ -44,6 +44,13 @@ export default function HomeScreen() {
         <Text style={styles.cardText}>TouchableOpacity Events</Text>
       </Pressable>
 
+      <Pressable
+        style={styles.card}
+        onPress={() => router.push('/touchablehighlight')}
+      >
+        <Text style={styles.cardText}>TouchableHighlight Events</Text>
+      </Pressable>
+
     </View>
   );
 }
