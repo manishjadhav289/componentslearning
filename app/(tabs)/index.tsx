@@ -51,6 +51,13 @@ export default function HomeScreen() {
         <Text style={styles.cardText}>TouchableHighlight Events</Text>
       </Pressable>
 
+      <Pressable
+        style={styles.card}
+        onPress={() => router.push('/accordion')}
+      >
+        <Text style={styles.cardText}>Accordion Component</Text>
+      </Pressable>
+
     </View>
   );
 }
